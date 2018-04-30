@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cruiser Bike</title>
+	<style type="text/css">
+		body
+		{
+			background-color:grey;
+		}
+		.judul1
+		{
+			color:black;
+			padding:20px;
+			text-align:center;
+			
+		}
+		.menu1
+		{
+			overflow:hidden;
+			background-color:#333;
+		}
+		.menu1 a
+		{
+			float: left;
+			display: block;
+			color: grey;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+
+		}
+		.menu1 a:hover
+		{
+			background-color: #ddd;
+			color: black;
+		}
+		.para1
+		{
+			border-color:black;
+			float:left;
+			margin-left:400px;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:18px;
+			font-align:justify;
+		}
+		.img1
+		{
+			float:left;
+			padding-left:50px;
+			position:absolute;
+			
+		}
+		.subjudul1
+		{
+			margin-left:250px;
+			margin-bottom:20px;
+			margin-top:20px;
+		}
+		.para2
+		{
+			float:left;
+			position:absolute;
+			margin-left:200px;
+			margin-top:400px;
+			font-size:15px;
+		}
+		.para3
+		{
+			float:left;
+			position:absolute;
+			margin-left:800px;
+			margin-top:400px;
+			font-size:15px
+		}
+		.tentangku1
+		{
+			border-style:solid;
+			float:left;
+			width:20%;
+			position:absolute;
+			margin-left:1200px;
+			margin-top:20px;
+			background-color: white;
+			padding-left: 20px;
+		}
+		.card1
+		{
+			background-color:white;
+			padding: 20px;
+			margin-top: 20px;
+		}
+		.fakeimg
+		{
+			background-image:url('ig1.jpg');
+			background-repeat:no-repeat;
+			background-size:50px 50px;
+			width: 40%;
+			float:left;
+			padding: 10px;
+		}
+		.para4
+		{
+			background-color:black;
+			margin-left:200px;
+			margin-right:150px;
+			margin-top:100px;
+			border-style:double;
+			float:left;
+			width:60%;			
+		}
+		.para4 a
+		{
+			float: left;
+			display: block;
+			color: grey;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		.para4 a:hover
+		{
+			background-color: #ddd;
+			color: black
+		}
+		.yt
+		{
+			margin-left:500px;
+			margin-top:200px;
+		}
+	</style>
+</head>
+<body>
+	<div class="judul1">
+		<h1>Selamat Datang Bro Bro</h1>
+	</div>
+	<div class="menu1">
+		<a href="http://www.kawasaki.com">Kawasaki</a>
+		<a href="http://www.bmw-motorrad.com">BMW Motorad</a>
+		<a href="http://powersports.honda.com">Honda</a>
+		<a href="http://www.yamaha-motor.com">Yamaha</a>
+		<a href="http://www.mvagusta.com">MV Agusta</a>
+		<a href="http:///www.ducati.com">Ducati</a>
+		<a href="" style="float:right;">Aldi</a>
+	</div>
+	<p id="hari"></p>
+	<script type="text/javascript">
+	var day;
+	switch (new Date().getDay()) 
+		{
+		case 0:
+			day = "Minggu";
+			break;
+		case 1:
+			day = "Senin";
+			break;
+		case 2:
+			day = "Selasa";
+			break;
+		case 3:
+			day = "Rabu";
+			break;
+		case 4:
+			day = "Kamis";
+			break;
+		case 5:
+			day = "Jumat";
+			break;
+		case  6:
+			day = "Sabtu";
+		}
+		document.getElementById("hari").innerHTML = "Hari" +" "+day;
+	</script>
+	<div class="tentangku1">
+		<div class="card1">
+			<h2>About Me!</h2>
+			<p>Instagram</p>
+			<a href="https://www.instagram.com/reinaldiegsp_/?hl=id"><div class="fakeimg" style="height:100px;">
+			</div></a>
+		</div>
+	</div>
+<div class="subjudul1"><p><h1>Cruiser Bike</h1></p></div>
+<div class="img1"><img src="cruiserbike.png" style="width:400px; height:300px;"/></div>
+<div class="para1"><p>
+Cruiser merupakan jenis sepeda motor yang mirip dengan road bike, yang diciptakan untuk</br>
+menjelajah dan membelah jalanan. Sepeda motor cruiser biasanya identic dengan CC torsi yang</br>
+sangat besar, namun dengan horse power yang cenderung kecil. Dengan mengandalkan sisi</br>
+ergonomis yang nyaman, dimana tangan rider memiliki posisi lebih tinggi dari badan, dan posisi</br>
+pijakan kaki yang cenderung selonjor.</br></p></div>
+<div class="para2">
+<p><ul>Kelebihan
+	<li>Gagah, dengan mesin ber CC dan bersuara besar membuat anda</br>merasa percaya diri ketika mengendarainya.</li>
+	<li>Posisi duduk yang sangat nyaman untuk berkendara jauh.</li></ul></p></div>
+<div class="para3">
+<p><ul>Kekurangan
+	<li>Harga yang cenderung mahal.</li>
+	<li>Spare part dan perawatan yang sulit.</li>
+	<li>Untuk ukuran motor ber CC besar, memiliki horse power yang tidak sebanding dengan CC nya.</li></ul></p></div>
+<div class="yt">
+	<iframe width="460" height="215" src="https://www.youtube.com/embed/UpxXz5iz5B8" frameborder="0" allow="autoplay;"></iframe>
+</div>
+	<div class="para4">
+		<a href="roadbike.html">Road Bike</a>
+		<a href="clubbike.html">Club Bike</a>
+		<a href="scooterbike.html">Scooter Bike</a>
+		<a href="cruiserbike.html">Cruiser Bike</a>
+		<a href="offroadbike.html">Offroad Bike</a>
+		<a href="sportbike.html">Sport Bike</a>
+		<a href="progweb.html" style="float:right;">Home</a>
+	</div>
+</body>
+</div>
+</html>

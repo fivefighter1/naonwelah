@@ -1,0 +1,7 @@
+*{padding:0 margin:0}
+html{
+	background:url("BOTTLESMOKER-f1.jpg" ) no-repeat center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;

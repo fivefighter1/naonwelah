@@ -1,0 +1,62 @@
+header {
+    padding: 3px;
+}
+::-moz-selection {
+    background-color: #91D8f7;
+    color: #fff;
+}
+::selection {
+    background-color: #91D8f7;
+    color: #fff;
+}
+a {
+    outline: 0;
+    color: #222;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+p a:hover {
+    color: #53bd84;
+}
+a:active {
+    outline: 0;
+    position: relative;
+    top: 2px;
+
+.clearfix {
+    clear: both;
+}
+h1 {
+    font-size: 89px;
+    font-family: 'Century Gothic', sans serif;
+	color : white;
+    line-height: 75px;
+    padding: 10px;
+}
+h1 a:hover {
+    text-decoration: none;
+    color: #53bd84;
+nav {
+    background: #222;
+    padding: 0;
+    margin: 10px 0;
+}
+nav a {
+    color: #F9F9F9;
+    display: block;
+    float: left;
+    padding: 10px;
+}
+nav a:visited {
+    color: #f9f9f9;
+}
+nav a:hover {
+    text-decoration: none;
+    background: #53bd84;
+}
+nav a:active {
+    position: relative;
+    top: 0;
+}
